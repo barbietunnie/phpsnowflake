@@ -18,7 +18,7 @@ define("TIMESTAMPLEFT_SHIFT", SEQUENCE_BITS + WORKERID_BITS + DATACENTERID_BITS)
 define("SEQUENCE_MASK", -1 ^ (-1 << SEQUENCE_BITS));
 define("EPOCH", 1288834974657);
 
-class Snowflak
+class Snowflake
 {
 
     private $workerid;
